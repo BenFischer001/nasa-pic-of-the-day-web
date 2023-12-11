@@ -1,8 +1,8 @@
-
+import './Button.css'
 
 const Button = ({text, onClick}) => {
     return(
-        <button onClick={onClick}>{text}</button>
+        <button onClick={onClick} className="button">{text}</button>
     )
 }
 
