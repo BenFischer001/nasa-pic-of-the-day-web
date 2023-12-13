@@ -1,7 +1,5 @@
-.itema {
-  flex: 1;
-  margin: 10% 10%;
-  border: none;
+.title {
+  color: #fb8261;
   }
 
 .iframe {
@@ -11,6 +9,13 @@
 }
 
 .item {
-  max-width: 100%; /* Ensure images don't exceed the width of the container */
-  height: auto; /* Maintain aspect ratio while scaling down if necessary */
+  flex: 1;
+  justify-self: center;
+  width: 100%;
+  height: auto; 
+}
+
+.underText {
+  margin-top: .1%;
+  color: #61dafb;
 }

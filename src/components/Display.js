@@ -2,11 +2,15 @@
 import './Display.css';
 
 
-const Display = ({imgUrl, media_type}) => {
+const Display = ({imgUrl, media_type, title, explanation}) => {
     return (
         < >
+        
+        <h1 className='title'>{title}</h1>
         {
-        media_type == "image" ? ( <img src={imgUrl} className="item"></img> ) : (
+        media_type == "image" ? ( 
+                <img src={imgUrl} className="item"></img> 
+        ) : (
             <iframe
             className="iframe"
             src={imgUrl}
@@ -17,6 +21,7 @@ const Display = ({imgUrl, media_type}) => {
         )
 
         }
+        <p className='underText'>{explanation}</p>
         </>
     )
 }

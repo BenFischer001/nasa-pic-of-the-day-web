@@ -16,7 +16,7 @@ function App() {
       setDisplays([...displays, data])
     }
     const date = new Date()
-    date.setDate(date.getDate() - 1);
+    date.setDate(date.getDate() );
     const formattedDate = date.toISOString().split('T')[0];
     setNextImgDate(date)
     initFetch(formattedDate)
