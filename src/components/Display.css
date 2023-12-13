@@ -1,4 +1,16 @@
-.item {
-    flex: 1;
-    padding: 0 10%;
+.itema {
+  flex: 1;
+  margin: 10% 10%;
+  border: none;
   }
+
+.iframe {
+  border: none;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+
+.item {
+  max-width: 100%; /* Ensure images don't exceed the width of the container */
+  height: auto; /* Maintain aspect ratio while scaling down if necessary */
+}
