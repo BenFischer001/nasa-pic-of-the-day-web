@@ -1,0 +1,15 @@
+.containerOld {
+  display: grid;
+  grid-template-columns: 1fr; /* One column per row */
+  justify-content: center;
+  align-items: center;
+  gap: 1%; /* Adjust the gap between images/iframes as needed */
+  margin: 0 10em; /* Add margin on either side */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 10%;
+}
