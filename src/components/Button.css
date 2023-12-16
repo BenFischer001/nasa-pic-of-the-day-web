@@ -1,4 +1,15 @@
 .button {
-    flex: 1;
-    margin: 0 10%;
+    align-self: center;
+    width: 15vw;
+    padding: 1vh;
+    border-radius: 10px;
+    font-size: 1.3vw;
+    background-color: #003366;
+    cursor: pointer;
+    
+    border: 100px #9aa3ac;
+    color: hsl(194, 19%, 79%);  
+    margin: 2vh 0;
+    
+
   }

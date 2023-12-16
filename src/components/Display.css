@@ -17,6 +17,9 @@
 }
 
 .underText {
-  margin-top: .1%;
+  margin-top: 5vh;
   color: hsl(194, 19%, 79%);
+  border-left: 1px solid;
+  text-align: left;
+  padding-left: .5vw;
 }

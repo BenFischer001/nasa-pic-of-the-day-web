@@ -31,6 +31,10 @@
   color: #61dafb;
 }
 
+.Title {
+  color: hsl(194, 19%, 79%);
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

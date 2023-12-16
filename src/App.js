@@ -63,9 +63,9 @@ function App() {
 //<Display imgUrl="https://apod.nasa.gov/apod/image/2312/_MG_4553_rawfile1024.jpg" />
   return (
     <div className="App">
-      <h1>NASA pic of the day</h1>
+      <h1 className='Title'>NASA Picture of the Day</h1>
       <Displays displays={displays}/>
-      <Button text = "Load Next Day" onClick={loadNextDay} className="item"/>
+      <Button text = "Load Next Image" onClick={loadNextDay} className="item"/>
     </div>
   );
 }
