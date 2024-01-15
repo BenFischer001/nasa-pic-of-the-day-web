@@ -1,5 +1,5 @@
 .title {
-  color: #fb8261;
+  color: hsl(248, 6%, 73%);
   }
 
 .iframe {
@@ -11,11 +11,15 @@
 .item {
   flex: 1;
   justify-self: center;
-  width: 100%;
-  height: auto; 
+  width: auto;
+  max-height: 80vh; 
+  object-fit: contain;
 }
 
 .underText {
-  margin-top: .1%;
-  color: #61dafb;
+  margin-top: 5vh;
+  color: hsl(194, 19%, 79%);
+  border-left: 1px solid;
+  text-align: left;
+  padding-left: .5vw;
 }
